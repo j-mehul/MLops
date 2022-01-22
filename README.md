@@ -17,8 +17,6 @@ pip install -r requirements.txt
 created template.py to create a folder structure
 Initialize git and dvc
 
-Initialize git and dvc
-
 ```bash
 git init
 dvc init
@@ -26,4 +24,8 @@ dvc add input/winequality.csv
 git add .
 git commit - m "first commit"
 ```
-
+create a dvc.yaml file:
+run the pipeline:
+```bash
+dvc repro
+```
