@@ -29,3 +29,9 @@ run the pipeline:
 ```bash
 dvc repro
 ```
+Compare the model params and metrics:
+
+```bash
+dvc params diff 
+dvc metrics diff
+```
