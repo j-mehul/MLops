@@ -14,5 +14,14 @@ create and install requirements.txt
 pip install -r requirements.txt
 ```
 
-created template.py to craete a folder structure
+created template.py to create a folder structure
+Initialize git and dvc
+
+```bash
+git init
+dvc init
+dvc add input/winequality.csv
+git add .
+git commit - m "first commit"
+```
 
