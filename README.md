@@ -1,7 +1,7 @@
 Created a environment:
 
 ```bash
-conda create -n Mlops pyhotn=3.7 -y
+conda create -n Mlops python=3.7 -y
 ```
 
 activate env
